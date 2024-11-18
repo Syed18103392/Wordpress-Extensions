@@ -62,9 +62,9 @@ class TemplateLoader
                     ?>
 
                     <a class="gf_social_icons_social_icon" href="<?php echo esc_url($icon[1]); ?>" <?php
-                       if ($open_in_new_tab['value']) {
-                           echo 'target="_blank"';
-                       } ?>>
+                    if ($open_in_new_tab['value']) {
+                        echo 'target="_blank"';
+                    } ?>>
                         <span>
                             <?php echo ($social_icons_data[$icon[0]]['icon']) ?>
                         </span>
